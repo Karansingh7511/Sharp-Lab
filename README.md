@@ -15,6 +15,7 @@ This starter pack includes a basic setup for using **React**. To start building 
     ```sh
     cd Sharp-Lab
     npm install d3
+    npm install parcel
     ```
 
 1. Start the development server.

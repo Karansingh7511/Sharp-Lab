@@ -1,0 +1,32 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+
+  /* Gradient background */
+  background: linear-gradient(to right, #ad2095, #ff9068);
+  /* Gradient text */
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.home-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2em;
+  background: linear-gradient(to right, #30cfd0, #330867);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 20px;
+  color: #555;
+}
